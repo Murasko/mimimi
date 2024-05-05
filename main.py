@@ -17,4 +17,5 @@ if __name__ == "__main__":
     print("")
     converted_text = convert_text(user_input)
     print(f"Here you go bro: \n{converted_text}")
+    print()
     input("Press any key to close")
