@@ -3,6 +3,10 @@ def convert_text(user_input: str) -> str:
     text_array = []
     is_lower = False
     for c in text:
+        if c == 'g':
+            c = 'k'
+        elif c == 'k':
+            c = 'g'
         if is_lower:
             text_array.append(c)
             is_lower = False
